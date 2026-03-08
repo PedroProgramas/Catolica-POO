@@ -14,12 +14,12 @@ public class Exercicio02 {
         Scanner scanner = new Scanner (System.in);/*Define o objeto da criação*/
         System.out.println("Digite os tres numeros que serao colocados na media aritmetica:");/*Declara os números pedidos*/
         
-            float nota1 = scanner.nextInt();/*Digita o primeiro número*/
-            float nota2 = scanner.nextInt();/*Digita o segundo número*/
-            float nota3 = scanner.nextInt();/*Digita o terceiro número*/
+            float nota1 = scanner.nextFloat();/*Digita o primeiro número*/
+            float nota2 = scanner.nextFloat();/*Digita o segundo número*/
+            float nota3 = scanner.nextFloat();/*Digita o terceiro número*/
             
-            float soma = (nota1 + nota2 + nota3) / 3;
+            float soma = (nota1 + nota2 + nota3) / 3;/*Código da media aritmetica dos números*/
             
-        System.out.println("A media aritmetica e:" +soma);
+        System.out.println("A media aritmetica e:" +soma);/*Impressão dos resultados*/
     }
 }
