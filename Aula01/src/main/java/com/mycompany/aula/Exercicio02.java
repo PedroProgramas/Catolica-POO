@@ -8,9 +8,9 @@ import java.util.Scanner;
  *
  * @author Pedro Henrique
  */
-public class Exercicio02 {
+public class Exercicio02 {/*Execução da classe selecionada*/
     
-    public static void main(String[] args) {
+    public static void main(String[] args) {/*Corpo da codificação, onde não gera retorno com o void*/
         Scanner scanner = new Scanner (System.in);/*Define o objeto da criação*/
         System.out.println("Digite os tres numeros que serao colocados na media aritmetica:");/*Declara os números pedidos*/
         

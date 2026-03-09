@@ -2,9 +2,9 @@
 package com.mycompany.aula;
 import java.util.Scanner;
 
-public class Exercicio01 {
+public class Exercicio01 {/*Execução da classe selecionada*/
     
-    public static void main(String[] args) {
+    public static void main(String[] args) {/*Corpo da codificação, onde não gera retorno com o void*/
         Scanner scanner = new Scanner (System.in);/*Define o objeto da criação*/
         System.out.println("Digite os quatro numeros inteiros da operacao:");/*Declara os números pedidos*/
         

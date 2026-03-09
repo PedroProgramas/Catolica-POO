@@ -8,8 +8,8 @@ import java.util.Scanner;
  *
  * @author Pedro Henrique
  */
-public class Exercicio03 {
-    public static void main(String[] args) {
+public class Exercicio03 {/*Execução da classe selecionada*/
+    public static void main(String[] args) {/*Corpo da codificação, onde não gera retorno com o void*/
         Scanner scanner = new Scanner (System.in);/*Define o objeto da criação*/
         System.out.println("Digite os tres numeros e os tres pesos que serao colocados na media ponderada:");/*Declara os números e os pesos pedidos*/
         
